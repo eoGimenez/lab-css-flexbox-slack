@@ -93,10 +93,16 @@ header div div button img {
     width:40px;
     background-color: white;
 }
-.botonG {
+header div div button + button {
+    background-color: #4285F4;
+}
+
+/* header div div button:nth-child(3) selecciona el, ene ste caso, el 3er hijo,
+asi podemos seleccionar el hijo que querramos */
+/* .botonG {
     background-color: #4285F4;
     display: flex;
-}
+} */
 .mid {
     background-color: #F3EAE2;
 }
