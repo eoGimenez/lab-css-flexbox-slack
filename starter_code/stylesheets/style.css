@@ -14,8 +14,8 @@ footer links grey: #454245
   margin: 0;  
 }
 body {
-    width: 768px;
-    font-family: Roboto;
+/*     width: 768px;*/   
+     font-family: Roboto;
 } 
 img {
     width: 100%;
