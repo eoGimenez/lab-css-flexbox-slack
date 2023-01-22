@@ -59,6 +59,9 @@ header {
     padding-top: 20px;
     align-items: center;
 }
+header strong {
+    color: #ECB12F;
+}
 header h1 {
     color: white;
     text-align: center;
@@ -103,91 +106,68 @@ asi podemos seleccionar el hijo que querramos */
     background-color: #4285F4;
     display: flex;
 } */
-.mid {
+section:first-child  {
     background-color: #F3EAE2;
 }
-#companies p {
+main section p{ 
     text-align: center;
     font-size: .8em;
-    text-transform: uppercase;
     padding: 20px 0 10px 0;
     font-weight: bold;
 }
-#companies img {
+main section:first-child {
+    text-transform: uppercase;
+}
+main section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+main section:nth-child(1) img {
     padding: 15px 25px;
     width: 15%;
-}
-#companies div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+/*     display: flex;
     align-items: center;
+    flex-direction: row; */
 }
 section #nYt {
     width: 40%;
 }
-.fstSection {
-    padding: 25px 15px 15px 0;
+main section:nth-child(2) {
+    padding: 100px 15px 15px 0;
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
-.sndSection {
+main section:nth-child(3) {
     padding: 15px 0 15px 15px;
     display: flex;
     flex-direction: column-reverse;
+    background-color: #F3EAE2;
 }
-.thrSection {
+main section:nth-child(4) {
     padding: 15px 15px 15px 0;
+    background-color: #F3EAE2;
 }
-.mid img {
-    padding: 20px 0;
-}
-.fstSection h2 {
+main section div h2 {
     text-align: center;
     padding: 15px 0;
     font-size: 2.5em;
 }
-.fstSection p {
-    text-align: start;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding: 15px;
-}
-.fstSection a {
+main section div a {
     text-decoration: none;
     color: #2E71A6;
     font-weight: bold;
     padding: 15px;
 }
-.sndSection h2 {
+main section h3 {
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 40px;
     font-size: 2.5em;
 }
-.sndSection p {
-    text-align: start;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding: 15px;
-}
-.sndSection a {
-    text-decoration: none;
-    color: #2E71A6;
-    font-weight: bold;
-    padding: 15px;
-}
-.thrSection h2 {
+main section:nth-child(5) > p:first-of-type {
     text-align: center;
-    padding: 15px 0;
-    font-size: 2.5em;
-}
-.thrSection p {
-    text-align: start;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding: 15px;
-}
-.thrSection a {
-    text-decoration: none;
-    color: #2E71A6;
-    font-weight: bold;
-    padding: 15px;
+    padding: 15px 50px;
 }
